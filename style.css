@@ -339,6 +339,8 @@ section.portifolio {
 .portifolio p {
     color: var(--corCinza);
     margin: 16px 0 48px 0;
+    text-align: justify;
+    line-height: 1.6;
 }
 
 .portifolio .portifolio-container {
