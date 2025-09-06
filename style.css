@@ -286,6 +286,11 @@ section.especialidades {
     height: 48px;
 }
 
+.especialidades .btn-contato button a {
+    text-decoration: none;
+    color: var(--corBranca);
+}
+
 /* Estilo da seção skills */
 
 section.skills {
@@ -441,10 +446,10 @@ section.contato {
     background: transparent;
     border: 2px solid var(--corAmarela);
     outline: none;
-    columns: var(--corBranca);
     font-size: 1.1rem;
     border-radius: 8px;
     margin-bottom: 8px;
+    color: var(--corBranca);
 }
 
 .contato form .tel-proj {
@@ -456,6 +461,7 @@ section.contato {
 .contato form textarea {
     resize: none;
     height: 150px;
+    color: var(--corBranca);
 }
 
 .contato form .btn-enviar input {
